@@ -1,5 +1,8 @@
 ## About me
 
+bla bla
+
+$\sin(x)$
 
 Nowadays I am a PhD student at Kaust - King Abdullah University of Science and Technology. I am working on nonlinear Hamilton-Jacobi PDEs and mean-field games with applications in economics, finance and crowd motion dynamics. I am also interested in general problems of existence of solutions and numerical methods for mean-field games as well in deterministic and stochastic optimal control problems and viscosity solutions.
 
