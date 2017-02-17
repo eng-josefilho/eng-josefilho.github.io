@@ -1,8 +1,0 @@
-## About me
-
-
-Nowadays I am a PhD student at Kaust - King Abdullah University of Science and Technology. I am working on nonlinear Hamilton-Jacobi PDEs and mean-field games with applications in economics, finance and crowd motion dynamics. I am also interested in general problems of existence of solutions and numerical methods for mean-field games as well in deterministic and stochastic optimal control problems and viscosity solutions.
-
-I have obtained my Bachelor’s degree in mathematics at Universidade Federal de São Carlos (UFSCar) in the state of São Paulo in Brazil. I am extremely interested in the applications of mathematical methods to real-world problems related to finance. In my bachelor’s course, I have studied probability and measure theory in an undergraduate research program hosted by the Sao Paulo Research Foundation. Subsequently, during a summer course at the Instituto Nacional de Matemática Pura e Aplicada (IMPA), one of the most renowned math institute in the world, I started getting acquainted with stochastic calculus and partial differential equations (PDE). Furthermore, in the last year of my bachelor’s course (2011), I wrote my undergraduate monograph on mathematical finance, combining results from probability theory and PDE.
-
-I completed my mathematics Master's degree at IMPA. Throughout this program, I was involved in a cooperation agreement between IMPA and Petrobras regarding the pricing of exotic derivatives contracts in commodity energy markets. This was a very interesting theme that became the subject of my Master’s dissertation. As the program advanced, I took several courses on PDE, optimisation, numerical analysis, among others.
