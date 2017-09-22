@@ -8,5 +8,17 @@
     <language>en-us</language>
     <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Getting started</title>
+      <link>https://davidsevangelista.github.io/post/first_test/</link>
+      <pubDate>Sun, 20 Aug 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://davidsevangelista.github.io/post/first_test/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Aqui eu comeco a colocar o texto etc etc&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tal tal tal&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

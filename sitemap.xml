@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://davidsevangelista.github.io/post/first_test/</loc>
+      <lastmod>2017-08-20T12:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://davidsevangelista.github.io/publication/1_radially_symmetric_MFG_Congestion/</loc>
       <lastmod>2017-03-23T00:00:00+00:00</lastmod>
     </url>
@@ -13,6 +21,14 @@
     
     <url>
       <loc>https://davidsevangelista.github.io/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://davidsevangelista.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -76,35 +92,11 @@
   
     
     
-    <url>
-      <loc>https://davidsevangelista.github.io/post/first_test/</loc>
-    </url>
-    
-  
-    
-    
-  
-    
-    
-    <url>
-      <loc>https://davidsevangelista.github.io/post/</loc>
-      <priority>0</priority>
-    </url>
-    
   
     
     
     <url>
       <loc>https://davidsevangelista.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://davidsevangelista.github.io/tags/spread-options/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
