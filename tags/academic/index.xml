@@ -8,23 +8,5 @@
     <language>en-us</language>
     <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Features and trading activity of BMF&amp;Bovespa market</title>
-      <link>https://davidsevangelista.github.io/post/first_test/</link>
-      <pubDate>Sun, 20 Aug 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://davidsevangelista.github.io/post/first_test/</guid>
-      <description>
-
-&lt;h1 id=&#34;visual-simulation&#34;&gt;Visual Simulation&lt;/h1&gt;
-
-&lt;h1 id=&#34;quotes-and-trades&#34;&gt;Quotes and trades&lt;/h1&gt;
-
-&lt;h1 id=&#34;intraday-volume&#34;&gt;Intraday Volume&lt;/h1&gt;
-
-&lt;h1 id=&#34;intraday-volatility&#34;&gt;Intraday Volatility&lt;/h1&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

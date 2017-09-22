@@ -10,20 +10,23 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Features and trading activity of BMF&amp;Bovespa market</title>
+      <title>Trading activity of BMF&amp;Bovespa market</title>
       <link>https://davidsevangelista.github.io/post/first_test/</link>
       <pubDate>Sun, 20 Aug 2017 12:00:00 +0000</pubDate>
       
       <guid>https://davidsevangelista.github.io/post/first_test/</guid>
       <description>
 
-&lt;h1 id=&#34;visual-simulation&#34;&gt;Visual Simulation&lt;/h1&gt;
+&lt;h2 id=&#34;real-market-activity&#34;&gt;Real market activity&lt;/h2&gt;
 
-&lt;h1 id=&#34;quotes-and-trades&#34;&gt;Quotes and trades&lt;/h1&gt;
+&lt;h2 id=&#34;quotes-and-trades&#34;&gt;Quotes and trades&lt;/h2&gt;
 
-&lt;h1 id=&#34;intraday-volume&#34;&gt;Intraday Volume&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/images/Figure_1_lob_trades_no_spikes.png&#34; alt=&#34;Lob and Trades&#34; /&gt;
+Format: &lt;img src=&#34;url&#34; alt=&#34;Alt Text&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;intraday-volatility&#34;&gt;Intraday Volatility&lt;/h1&gt;
+&lt;h2 id=&#34;intraday-volume&#34;&gt;Intraday Volume&lt;/h2&gt;
+
+&lt;h2 id=&#34;intraday-volatility&#34;&gt;Intraday Volatility&lt;/h2&gt;
 </description>
     </item>
     
