@@ -24,16 +24,9 @@
 
 &lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_sread_midprice.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;quotes-and-trades&#34;&gt;Quotes and trades&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/Figure_1_lob_trades_no_spikes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;quotes-trades-and-volume-proportional-to-trade&#34;&gt;Quotes, trades, and volume proportional to trade&lt;/h2&gt;
 
-&lt;p&gt;One day of trading activity:
-&lt;img src=&#34;https://davidsevangelista.github.io/img/Figure_1_lob_trades_prop_volume_one_day.png&#34; alt=&#34;&#34; /&gt;
-One day of trading activity 5:
-&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_lob_trades_volume_prop.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_lob_trades_volume_prop.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eight minutes of activity:
 &lt;img src=&#34;https://davidsevangelista.github.io/img/Figure_1_lob_trades_prop_volume.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
