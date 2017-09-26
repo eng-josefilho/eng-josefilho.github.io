@@ -34,6 +34,11 @@
 &lt;h2 id=&#34;intraday-volume&#34;&gt;Intraday Volume&lt;/h2&gt;
 
 &lt;h2 id=&#34;intraday-volatility&#34;&gt;Intraday Volatility&lt;/h2&gt;
+
+&lt;h2 id=&#34;order-imbalance&#34;&gt;Order imbalance&lt;/h2&gt;
+
+&lt;p&gt;Here, we illustrate the arrival of market orders conditional to order imbalance.
+&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_percentage_imbalance_regimes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
