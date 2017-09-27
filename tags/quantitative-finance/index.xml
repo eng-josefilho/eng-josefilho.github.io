@@ -37,8 +37,11 @@
 
 &lt;h2 id=&#34;order-imbalance&#34;&gt;Order imbalance&lt;/h2&gt;
 
-&lt;p&gt;Here, we illustrate the arrival of market orders conditional to order imbalance.
-&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_percentage_imbalance_regimes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Here, we illustrate the arrival of market orders conditional to order imbalance. Next figure we illustrate this for two minutes time stamp&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_trades.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_percentage_imbalance_regimes.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
