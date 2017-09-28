@@ -40,12 +40,12 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Buy MO&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Buy MO&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Sell MO&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Sell MO&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Imbalance&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Imbalance&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Buy MO Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;&amp;lsquo;Buy MO Mean&amp;rsquo;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Sell MO Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Sell MO Mean&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Mean&amp;rsquo;)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
