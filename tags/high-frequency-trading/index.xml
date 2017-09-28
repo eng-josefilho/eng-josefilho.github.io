@@ -34,6 +34,68 @@
 
 &lt;h2 id=&#34;order-imbalance&#34;&gt;Order imbalance&lt;/h2&gt;
 
+&lt;h1 id=&#34;imbalance-regime&#34;&gt;Imbalance Regime&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Buy MO&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Buy MO&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Sell MO&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Imbalance Sell MO&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Imbalance&amp;rsquo;, &amp;lsquo;Num&amp;rsquo;)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;(&amp;lsquo;Total Imbalance&amp;rsquo;, &amp;lsquo;Mean&amp;rsquo;)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;357&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.755610&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;535&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.78989&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;892&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.772749&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;464&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.392162&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;519&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.39019&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;983&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.391176&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;493&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.005625&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;477&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.01599&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;970&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.005182&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;543&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.379145&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;447&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.36965&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;990&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.374396&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;555&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.782063&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;378&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.76846&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;933&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.775260&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;p&gt;Here, we illustrate the arrival of market orders conditional to order imbalance. Next figure we illustrate this for two minutes time stamp&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_trades.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
