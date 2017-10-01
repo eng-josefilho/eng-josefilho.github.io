@@ -261,7 +261,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Number of trades conditional to order imbalance regime.&lt;/h4&gt;
+        &lt;h4&gt;Number of trades conditional on order imbalance regime.&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -325,7 +325,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Percentage of trades conditional to order imbalance regime.&lt;/h4&gt;
+        &lt;h4&gt;Percentage of trades conditional on order imbalance regime.&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
