@@ -245,7 +245,7 @@ We use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" ta
 
 <p>More specifcally, we analyse the futures contract of dolar at March 3rd 2017, with maturity in April, 2017.</p>
 
-<h1 id="basic-statistics-and-visual-representation">Basic Statistics and visual representation</h1>
+<h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
 <p>First, we illustrate the basic statistics of limit and market orders.</p>
 
@@ -420,7 +420,21 @@ We use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" ta
 
 <h2 id="quotes-trades-and-volume-proportional-to-trade">Quotes, trades, and volume proportional to trade</h2>
 
-<p>Here, we plot three minutes of activity of the order book together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.
+<p>Here, we plot three minutes of activity of the order book together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.</p>
+
+<p>
+<figure >
+    
+        <img src="/img/plot_lob_trades_volume_prop.png" />
+    
+    
+    <figcaption>
+        <h4>Best bid and ask quotes and trades. The Blue (red) dots represent buy (sell) market orders. The dots size are proportional to the trade volumes.</h4>
+        
+    </figcaption>
+    
+</figure>
+
 <img src="/img/plot_lob_trades_volume_prop.png" alt="" /></p>
 
 <h1 id="order-book-imbalance">Order Book Imbalance</h1>
@@ -431,7 +445,7 @@ Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
 where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.</p>
 
-<p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 1 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent buy and sell market orders, respectivelly.</p>
+<p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent buy and sell market orders, respectivelly.</p>
 
 <p>Divide imbalance into regimes and illustrate when trades occur.</p>
 
@@ -442,7 +456,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
     
     
     <figcaption>
-        <h4>Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the size of the transaction.</h4>
+        <h4>Order imbalance for each quote at the best limits. The blue (red) dots represent Buy (Sell) market orders. The dots size are proportional the trade volumes.</h4>
         
     </figcaption>
     
