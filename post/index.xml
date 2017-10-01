@@ -19,8 +19,10 @@
 
 &lt;h1 id=&#34;the-data&#34;&gt;The data&lt;/h1&gt;
 
-&lt;p&gt;In this post, we use tick-data from the trading activity of contracts of U.S. Dollar Furures. The specifications of this futures contract are given &lt;a href=&#34;http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
-We use the data from raw messages in ftp format that can be downloaded from here [](&lt;a href=&#34;ftp://ftp.bmf.com.br&#34; target=&#34;_blank&#34;&gt;ftp://ftp.bmf.com.br&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In this post, we use tick-data of U.S. Dollar Furures contracts traded at BMF(Bolsa de Mercadorias e Futuros). The specifications of this contract are given &lt;a href=&#34;http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+We use the data from raw messages in ftp format that are available at &lt;a href=&#34;ftp://ftp.bmf.com.br&#34; target=&#34;_blank&#34;&gt;ftp://ftp.bmf.com.br&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More specifcally, we analyse the futures contract of dolar with maturity in April, 2017 at March, 3rd 2017. The code of this asset is DOLJ17.&lt;/p&gt;
 
 &lt;h2 id=&#34;statistics-of-trades-and-limit-orders&#34;&gt;Statistics of trades and limit orders&lt;/h2&gt;
 
