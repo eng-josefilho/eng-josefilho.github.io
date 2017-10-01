@@ -18,6 +18,77 @@
 
 &lt;h2 id=&#34;statistics-of-trades-and-limit-orders&#34;&gt;Statistics of trades and limit orders&lt;/h2&gt;
 
+&lt;h2 id=&#34;statistics-of-trades&#34;&gt;Statistics of Trades&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Price Trade Buy MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Price Trade Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Price&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;count&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3285.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2403.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5688.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;mean&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.71&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3180.24&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3179.36&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;std&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.05&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.98&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.47&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;min&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3156.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3158.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3156.50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3179.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;75%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3184.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3187.75&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3185.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;max&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3205.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;spread-and-midprice&#34;&gt;Spread and midprice&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_sread_midprice.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
