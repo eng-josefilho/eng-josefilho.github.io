@@ -243,9 +243,11 @@
 <p>In this post, we use tick-data of U.S. Dollar Furures contracts traded at BMF(Bolsa de Mercadorias e Futuros). The specifications of this contract are given <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">here</a>.
 We use the data from raw messages in ftp format that are available at <a href="ftp://ftp.bmf.com.br" target="_blank">ftp://ftp.bmf.com.br</a>.</p>
 
-<p>More specifcally, we analyse the futures contract of dolar with maturity in April, 2017 at March, 3rd 2017. The code of this asset is DOLJ17.</p>
+<p>More specifcally, we analyse the futures contract of dolar at March 3rd 2017, with maturity in April, 2017.</p>
 
-<h2 id="statistics-of-trades-and-limit-orders">Statistics of trades and limit orders</h2>
+<h1 id="basic-statistics-and-visual-representation">Basic Statistics and visual representation</h1>
+
+<p>First, we illustrate the basic statistics of limit and market orders.</p>
 
 <h2 id="trade-statistics">Trade Statistics</h2>
 
@@ -398,13 +400,28 @@ We use the data from raw messages in ftp format that are available at <a href="f
 </tbody>
 </table>
 
-<h2 id="spread-and-midprice">Spread and midprice</h2>
+<h2 id="spread-and-mid-price">Spread and mid-price</h2>
 
-<p><img src="/img/plot_sread_midprice.png" alt="" /></p>
+<p>To have a flavor of intraday price variations, in Figure 1 we depict the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.</p>
+
+
+<figure >
+    
+        <img src="/img/plot_sread_midprice.png" />
+    
+    
+    <figcaption>
+        <h4>Mid-price</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <h2 id="quotes-trades-and-volume-proportional-to-trade">Quotes, trades, and volume proportional to trade</h2>
 
-<p><img src="/img/plot_lob_trades_volume_prop.png" alt="" /></p>
+<p>Here, we plot three minutes of activity of the order book together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.
+<img src="/img/plot_lob_trades_volume_prop.png" alt="" /></p>
 
 <h1 id="order-book-imbalance">Order Book Imbalance</h1>
 
@@ -414,7 +431,7 @@ Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
 where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.</p>
 
-<p>The Order Book Imbalance measures whether the LOB is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 1 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent buy and sell market orders, respectivelly.</p>
+<p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 1 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent buy and sell market orders, respectivelly.</p>
 
 <p>Divide imbalance into regimes and illustrate when trades occur.</p>
 
