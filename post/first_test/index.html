@@ -401,14 +401,16 @@
 
 <h1 id="order-book-imbalance">Order Book Imbalance</h1>
 
-<p>The Order Book Imbalance measures whether the LOB is buy or sell heavy. We define the the Imbalance as the difference between the bid and ask quantity quotes divided by its sum. That is,
+<p>The Order Book Imbalance measures whether the LOB is buy or sell heavy. We define the the imbalance as the difference between the bid and ask quantity quotes divided by its sum. That is,
 $$
-Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b+V^{a}_t},
+Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
-where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the bid and at the ask, respectively.</p>
+where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.</p>
+
+<p>The order imbalance is a predictor of price direction. To illustrate this, in Figure we</p>
 
 <p>Divide imbalance into regimes and illustrate when trades occur.
-<img src="/img/plot_imbalance_trades.png" alt="" /></p>
+<img src="/img/plot_imbalance_trades.png" alt="Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the trade \label{fig:imbalance_trades}" /></p>
 
 <h2 id="number-of-market-orders">Number of Market Orders</h2>
 
