@@ -197,7 +197,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;imbalance&lt;/h4&gt;
+        &lt;h4&gt;Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the trade&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
