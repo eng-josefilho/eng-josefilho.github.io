@@ -197,7 +197,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the trade&lt;/h4&gt;
+        &lt;h4&gt;Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the size of the transaction.&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
@@ -254,7 +254,19 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_num_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_num_MO.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Number of trades conditional to order imbalance regime.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;h2 id=&#34;percentage-of-market-orders&#34;&gt;Percentage of Market Orders&lt;/h2&gt;
 
@@ -306,7 +318,19 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_perc_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_perc_MO.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Percentage of trades conditional to order imbalance regime.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;h2 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h2&gt;
 
@@ -358,7 +382,19 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_mean_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_mean_MO.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Average of order imbalance when trade occur conditional on order imbalance regime.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 </description>
     </item>
     
