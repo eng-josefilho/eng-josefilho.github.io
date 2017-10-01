@@ -182,8 +182,9 @@
 
 &lt;p&gt;The Order Book Imbalance measures whether the LOB is buy or sell heavy. We define the the Imbalance as the difference between the bid and ask quantity quotes divided by its sum. That is,
 $$
-Imb_t = \frac{Q^{b}-Q^{a}}{Q^b+Q^{a}}
-$$&lt;/p&gt;
+Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b+V^{a}_t},
+$$
+where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the bid and at the ask, respectively.&lt;/p&gt;
 
 &lt;p&gt;Divide imbalance into regimes and illustrate when trades occur.
 &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_trades.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
