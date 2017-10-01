@@ -31,14 +31,161 @@
 &lt;p&gt;Divide imbalance into regimes and illustrate when trades occur.
 &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_trades.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_num_MO.png&#34; alt=&#34;&#34; /&gt;
-table 1 here:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_num_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_perc_MO.png&#34; alt=&#34;&#34; /&gt;
-table 2 here:&lt;/p&gt;
+&lt;h2 id=&#34;number-of-market-orders&#34;&gt;Number of Market Orders&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_mean_MO.png&#34; alt=&#34;&#34; /&gt;
-table 3 here:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Regime&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Regime 1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;538&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;528&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1066&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;534&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;568&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1102&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;702&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;499&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1201&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;776&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;403&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1179&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;726&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;404&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1130&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_perc_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;percentage-of-market-orders&#34;&gt;Percentage of Market Orders&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Regime&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Regime 1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.42&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.98&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.77&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.30&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;23.65&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19.41&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.43&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.77&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;23.69&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.78&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.76&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.82&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19.90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_mean_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Regime&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Regime 1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.784803&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.78268&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.783741&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.386294&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.39894&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.392617&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.003788&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.01365&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.008720&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.375010&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.37637&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.375692&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Regime 5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.796639&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.77987&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.788256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
