@@ -187,8 +187,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 
 &lt;p&gt;The order imbalance is a predictor of price direction. To illustrate this, in Figure \ref{fig:imbalance_trades} we plot the order imbalance for each quote at the best limits.&lt;/p&gt;
 
-&lt;p&gt;Divide imbalance into regimes and illustrate when trades occur.
-&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_trades.png&#34; alt=&#34;Order imbalance for each quote at the best limits. Blue (Red) dots represent Buy (Sell) Market Orders. The size of the dots are proportional to the trade \label{fig:imbalance_trades}&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Divide imbalance into regimes and illustrate when trades occur.&lt;/p&gt;
 
 
 &lt;figure &gt;
