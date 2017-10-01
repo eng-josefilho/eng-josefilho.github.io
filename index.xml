@@ -24,7 +24,7 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Stat&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Price Trade Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Price Trade Sell MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Price&lt;/th&gt;
@@ -86,6 +86,86 @@
 &lt;td align=&#34;right&#34;&gt;3205.00&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;limit-order-book-statistics&#34;&gt;Limit Order Book Statistics&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Stat&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Bid Price0&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Ask Price0&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Bid Volume0&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Ask Volume0&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;count&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;197449.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;197449.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;197449.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;197449.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;mean&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.22&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.82&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;81.27&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;86.34&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;std&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.63&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.64&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;100.25&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;98.10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;min&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3157.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3158.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;25.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;25.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3177.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;55.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;60.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;75%&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;100.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;105.00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;max&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3206.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1290.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1130.00&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
