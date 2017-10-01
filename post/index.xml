@@ -86,7 +86,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_perc_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;percentage-of-market-orders&#34;&gt;Percentage of Market Orders&lt;/h1&gt;
+&lt;h2 id=&#34;percentage-of-market-orders&#34;&gt;Percentage of Market Orders&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -138,7 +138,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_imbalance_regime_mean_MO.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h1&gt;
+&lt;h2 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
