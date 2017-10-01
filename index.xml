@@ -201,7 +201,7 @@ We use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com
 
 &lt;p&gt;Here, we plot three minutes of activity of the order book together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;figure &gt;
     
         &lt;img src=&#34;https://davidsevangelista.github.io/img/plot_lob_trades_volume_prop.png&#34; /&gt;
@@ -214,7 +214,6 @@ We use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com
     
 &lt;/figure&gt;
 
-&lt;img src=&#34;https://davidsevangelista.github.io/img/plot_lob_trades_volume_prop.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;order-book-imbalance&#34;&gt;Order Book Imbalance&lt;/h1&gt;
 
