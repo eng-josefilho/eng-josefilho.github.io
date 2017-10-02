@@ -31,7 +31,7 @@ We use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com
 cover the trades and the limit order book events.&lt;/p&gt;
 
 &lt;p&gt;Next, we do a first-step analyze on the so-called Order Book Imbalance. Finally, we analyze the
-number of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high (low) order book imbalance.&lt;/p&gt;
+number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high (low) order book imbalance.&lt;/p&gt;
 
 &lt;h1 id=&#34;basic-statistics-and-visual-representation&#34;&gt;Basic Statistics and Visual Representation&lt;/h1&gt;
 
