@@ -12,7 +12,7 @@
     <item>
       <title>Basic Statistics and Order Book Imbalance: The Brazilian BMF&amp;Bovespa market</title>
       <link>https://davidsevangelista.github.io/post/basic_statistics_order_imbalance/</link>
-      <pubDate>Sun, 20 Aug 2017 12:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Oct 2017 08:00:00 +0000</pubDate>
       
       <guid>https://davidsevangelista.github.io/post/basic_statistics_order_imbalance/</guid>
       <description>
@@ -29,8 +29,8 @@ We use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com
 &lt;p&gt;First, we present basic statistics and a visual representation of the
 (&lt;a href=&#34;http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm&#34; target=&#34;_blank&#34;&gt;U.S. Dollar Futures contract&lt;/a&gt;, DOLJ17, for a given day. The basic statistics
 cover the trades and the limit order book events. We sellect all aggressive market orders that were
-executed against orders sitted at the limit order book. This excludes the possible auctions happening mainly at the begining and at the end of the trading day.
-We also depict the best limits with dots representing the trades, proportionally to the trade
+executed against orders sited at the limit order book. This excludes the possible auctions happening mainly at the begining and at the end of the trading day.
+We also depict the best limits with dots representing the trades proportionally to the trade
 volume. To compare trades with the limit order book, we draw the best limits just prior any given
 trade.&lt;/p&gt;
 
