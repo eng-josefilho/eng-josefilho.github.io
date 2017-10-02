@@ -257,7 +257,8 @@ number (and percentage) of buy and sell market orders that arrive at five differ
 <h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
 <p>We compose our trading data selecting all aggressive market orders
-executed against orders sited at the limit order book. With this, we exclude the possible auctions happening mainly at the beginning and at the end of the trading day.
+executed against orders sited at the limit order book.
+With this, we exclude the possible auctions happening mainly at the beginning and at the end of the trading day.
 Moreover, we depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.</p>
 
 <p>Next, we illustrate the basic statistics of limit and market orders.</p>
@@ -462,9 +463,9 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 <p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly.</p>
 
 <p>Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
-These regimes are divided in regions such that</p>
+These regimes are divided in regions such that $Imb_t$ belogs to one of the sets</p>
 
-<p>$$Imb_t\in {[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}.$$</p>
+<p>$${{[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}}.$$</p>
 
 <p>Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (see <em>Number of Market Orders</em>). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.
 This difference is more pronounced for buy orders than for sell orders in regimes 1 and 2. This is in accordance the higher number of buy market orders (see table <em>Trading Statistics</em>) for this particular day.</p>
