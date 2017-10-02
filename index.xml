@@ -246,7 +246,7 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;p&gt;$$Imb_t\in {[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}.$$&lt;/p&gt;
 
 &lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (see &lt;em&gt;Number of Market Orders&lt;/em&gt;). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.
-This difference is more pronounced for buy orders the for sell orders in regimes 1 and 2. This is in accordance the higher number of buy market orders (see table &lt;em&gt;Trading Statistics&lt;/em&gt;) for this particular day.&lt;/p&gt;
+This difference is more pronounced for buy orders than for sell orders in regimes 1 and 2. This is in accordance the higher number of buy market orders (see table &lt;em&gt;Trading Statistics&lt;/em&gt;) for this particular day.&lt;/p&gt;
 
 
 &lt;figure &gt;
