@@ -463,7 +463,10 @@ These regimes are divided in regions such that</p>
 
 <p>$$Imb_t\in {[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}.$$</p>
 
-<p>Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4.</p>
+<p>Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.</p>
+
+<p>However, the discrepancies between buy and sell market orders are mitigated when we consider the
+percentage of market orders orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.</p>
 
 
 <figure >
@@ -485,8 +488,8 @@ These regimes are divided in regions such that</p>
 <thead>
 <tr>
 <th>Regime</th>
-<th align="right">Imbalance Buy MO</th>
 <th align="right">Imbalance Sell MO</th>
+<th align="right">Imbalance Buy MO</th>
 <th align="right">Total Imbalance</th>
 </tr>
 </thead>
@@ -494,37 +497,37 @@ These regimes are divided in regions such that</p>
 <tbody>
 <tr>
 <td>Regime 1</td>
-<td align="right">538</td>
 <td align="right">528</td>
+<td align="right">538</td>
 <td align="right">1066</td>
 </tr>
 
 <tr>
 <td>Regime 2</td>
-<td align="right">534</td>
 <td align="right">568</td>
+<td align="right">534</td>
 <td align="right">1102</td>
 </tr>
 
 <tr>
 <td>Regime 3</td>
-<td align="right">702</td>
-<td align="right">499</td>
-<td align="right">1201</td>
+<td align="right">520</td>
+<td align="right">745</td>
+<td align="right">1265</td>
 </tr>
 
 <tr>
 <td>Regime 4</td>
-<td align="right">776</td>
-<td align="right">403</td>
-<td align="right">1179</td>
+<td align="right">402</td>
+<td align="right">770</td>
+<td align="right">1172</td>
 </tr>
 
 <tr>
 <td>Regime 5</td>
-<td align="right">726</td>
-<td align="right">404</td>
-<td align="right">1130</td>
+<td align="right">384</td>
+<td align="right">689</td>
+<td align="right">1073</td>
 </tr>
 </tbody>
 </table>
@@ -549,8 +552,8 @@ These regimes are divided in regions such that</p>
 <thead>
 <tr>
 <th>Regime</th>
-<th align="right">Imbalance Buy MO</th>
 <th align="right">Imbalance Sell MO</th>
+<th align="right">Imbalance Buy MO</th>
 <th align="right">Total Imbalance</th>
 </tr>
 </thead>
@@ -558,37 +561,37 @@ These regimes are divided in regions such that</p>
 <tbody>
 <tr>
 <td>Regime 1</td>
-<td align="right">16.42</td>
 <td align="right">21.98</td>
+<td align="right">16.42</td>
 <td align="right">18.77</td>
 </tr>
 
 <tr>
 <td>Regime 2</td>
-<td align="right">16.30</td>
 <td align="right">23.65</td>
+<td align="right">16.30</td>
 <td align="right">19.41</td>
 </tr>
 
 <tr>
 <td>Regime 3</td>
-<td align="right">21.43</td>
-<td align="right">20.77</td>
-<td align="right">21.15</td>
+<td align="right">21.65</td>
+<td align="right">22.74</td>
+<td align="right">22.28</td>
 </tr>
 
 <tr>
 <td>Regime 4</td>
-<td align="right">23.69</td>
-<td align="right">16.78</td>
-<td align="right">20.76</td>
+<td align="right">16.74</td>
+<td align="right">23.50</td>
+<td align="right">20.64</td>
 </tr>
 
 <tr>
 <td>Regime 5</td>
-<td align="right">22.16</td>
-<td align="right">16.82</td>
-<td align="right">19.90</td>
+<td align="right">15.99</td>
+<td align="right">21.03</td>
+<td align="right">18.90</td>
 </tr>
 </tbody>
 </table>
@@ -613,8 +616,8 @@ These regimes are divided in regions such that</p>
 <thead>
 <tr>
 <th>Regime</th>
-<th align="right">Imbalance Buy MO</th>
 <th align="right">Imbalance Sell MO</th>
+<th align="right">Imbalance Buy MO</th>
 <th align="right">Total Imbalance</th>
 </tr>
 </thead>
@@ -622,37 +625,37 @@ These regimes are divided in regions such that</p>
 <tbody>
 <tr>
 <td>Regime 1</td>
+<td align="right">-0.782679</td>
 <td align="right">-0.784803</td>
-<td align="right">-0.78268</td>
 <td align="right">-0.783741</td>
 </tr>
 
 <tr>
 <td>Regime 2</td>
+<td align="right">-0.398940</td>
 <td align="right">-0.386294</td>
-<td align="right">-0.39894</td>
 <td align="right">-0.392617</td>
 </tr>
 
 <tr>
 <td>Regime 3</td>
-<td align="right">-0.003788</td>
-<td align="right">-0.01365</td>
-<td align="right">-0.008720</td>
+<td align="right">-0.005024</td>
+<td align="right">0.007974</td>
+<td align="right">0.001475</td>
 </tr>
 
 <tr>
 <td>Regime 4</td>
-<td align="right">0.375010</td>
-<td align="right">0.37637</td>
-<td align="right">0.375692</td>
+<td align="right">0.396713</td>
+<td align="right">0.395594</td>
+<td align="right">0.396154</td>
 </tr>
 
 <tr>
 <td>Regime 5</td>
-<td align="right">0.796639</td>
-<td align="right">0.77987</td>
-<td align="right">0.788256</td>
+<td align="right">0.789241</td>
+<td align="right">0.807198</td>
+<td align="right">0.798220</td>
 </tr>
 </tbody>
 </table>

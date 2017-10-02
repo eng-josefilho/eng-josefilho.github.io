@@ -242,7 +242,10 @@ These regimes are divided in regions such that&lt;/p&gt;
 
 &lt;p&gt;$$Imb_t\in {[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}.$$&lt;/p&gt;
 
-&lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4.&lt;/p&gt;
+&lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.&lt;/p&gt;
+
+&lt;p&gt;However, the discrepancies between buy and sell market orders are mitigated when we consider the
+percentage of market orders orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -264,8 +267,8 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Regime&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -273,37 +276,37 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Regime 1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;538&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;528&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;538&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1066&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;534&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;568&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;534&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1102&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;702&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;499&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1201&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;520&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;745&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1265&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;776&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;403&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1179&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;402&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;770&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1172&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;726&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;404&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1130&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;384&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;689&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1073&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -328,8 +331,8 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Regime&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -337,37 +340,37 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Regime 1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.42&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;21.98&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.42&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;18.77&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.30&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;23.65&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.30&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;19.41&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.43&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20.77&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.65&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.74&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.28&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;23.69&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.78&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20.76&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.74&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;23.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.64&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;22.16&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.82&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19.90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15.99&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.03&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.90&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -392,8 +395,8 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Regime&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Imbalance Sell MO&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Imbalance Buy MO&lt;/th&gt;
 &lt;th align=&#34;right&#34;&gt;Total Imbalance&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -401,37 +404,37 @@ These regimes are divided in regions such that&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Regime 1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.782679&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;-0.784803&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.78268&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;-0.783741&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.398940&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;-0.386294&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.39894&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;-0.392617&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.003788&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.01365&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.008720&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.005024&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.007974&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.001475&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.375010&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.37637&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.375692&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.396713&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.395594&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.396154&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.796639&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.77987&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.788256&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.789241&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.807198&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.798220&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
