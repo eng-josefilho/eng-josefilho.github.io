@@ -244,9 +244,6 @@ These regimes are divided in regions such that&lt;/p&gt;
 
 &lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.&lt;/p&gt;
 
-&lt;p&gt;However, the discrepancies between buy and sell market orders are mitigated when we consider the
-percentage of market orders orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.&lt;/p&gt;
-
 
 &lt;figure &gt;
     
@@ -310,6 +307,9 @@ percentage of market orders orders among the different regimes. Figure 5 must be
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;However, the discrepancies between buy and sell market orders are mitigated when we consider the
+percentage of market orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.&lt;/p&gt;
 
 
 &lt;figure &gt;
