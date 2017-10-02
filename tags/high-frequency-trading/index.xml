@@ -241,7 +241,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;p&gt;The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly.&lt;/p&gt;
 
 &lt;p&gt;Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
-These regimes are divided in regions such that $Imb_t$ belogs to one of the sets&lt;/p&gt;
+These regimes are divided in regions such that $Imb_t$ belogs to one of the follwing sets,&lt;/p&gt;
 
 &lt;p&gt;$${{[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}}.$$&lt;/p&gt;
 
