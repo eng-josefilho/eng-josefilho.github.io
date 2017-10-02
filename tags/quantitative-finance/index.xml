@@ -21,7 +21,7 @@
 &lt;p&gt;In this post, we use tick-data of U.S. Dollar Futures contracts traded at &lt;a href=&#34;http://www.bmfbovespa.com/en_us/&#34; target=&#34;_blank&#34;&gt;BM&amp;amp;F Bovespa&lt;/a&gt;. The specifications of this contract are given &lt;a href=&#34;http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
 We use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com.br&#34; target=&#34;_blank&#34;&gt;ftp://ftp.bmf.com.br&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;More specifcally, we analyze the futures contract of U.S. Dollar at &lt;strong&gt;March 3rd 2017&lt;/strong&gt;, with maturity in April, 2017. The code of this asset is DOLJ17.&lt;/p&gt;
+&lt;p&gt;More specifcally, we analyze the U.S. Dollar Futures contracts at &lt;strong&gt;March 3rd 2017&lt;/strong&gt;, with maturity in April, 2017. The code of this asset is DOLJ17.&lt;/p&gt;
 
 &lt;h1 id=&#34;the-goal-of-this-post&#34;&gt;The goal of this post:&lt;/h1&gt;
 
@@ -33,7 +33,7 @@ We also depict the best limits with dots representing the trades. These dots are
 trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.&lt;/p&gt;
 
 &lt;p&gt;Next, we do a first-step analyze on the so-called Order Book Imbalance. Finally, we analyze the
-number of buy and sell market orders that arrive at five different Regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high (low) order book imbalance.&lt;/p&gt;
+number of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high (low) order book imbalance.&lt;/p&gt;
 
 &lt;h1 id=&#34;basic-statistics-and-visual-representation&#34;&gt;Basic Statistics and Visual Representation&lt;/h1&gt;
 
@@ -239,7 +239,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;p&gt;Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
 These regimes are divided in regions such that&lt;/p&gt;
 
-&lt;p&gt;$$Imb_t\in {[-1, -0.5), [-0.5, -0.2), [-0.2, 0.2), [0.2,0.5), [0.5,1]}.$$&lt;/p&gt;
+&lt;p&gt;$$Imb_t\in {[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}.$$&lt;/p&gt;
 
 &lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4.&lt;/p&gt;
 
