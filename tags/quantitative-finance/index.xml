@@ -239,7 +239,7 @@ where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at t
 &lt;p&gt;Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
 These regimes are divided in regions such that&lt;/p&gt;
 
-&lt;p&gt;$$Imb_t\in {[-1, -0.5), [-0.5, -0.2), [-0.2, 0.2), [0.2,0.5), [0.5,1]}$$.&lt;/p&gt;
+&lt;p&gt;$$Imb_t\in {[-1, -0.5), [-0.5, -0.2), [-0.2, 0.2), [0.2,0.5), [0.5,1]}.$$&lt;/p&gt;
 
 &lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (Number of Market Orders). The corresponding bar plot is given in Figure 4.&lt;/p&gt;
 
