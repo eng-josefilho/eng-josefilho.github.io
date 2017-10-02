@@ -268,6 +268,77 @@ Moreover, we depict the best limits with dots representing the trades. These dot
 <thead>
 <tr>
 <th>index</th>
+<th align="right">Price Trade Buy MO</th>
+<th align="right">Price Trade Sell MO</th>
+<th align="right">Price</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>count</td>
+<td align="right">57054.00</td>
+<td align="right">25098.00</td>
+<td align="right">82152.00</td>
+</tr>
+
+<tr>
+<td>mean</td>
+<td align="right">3183.25</td>
+<td align="right">3178.17</td>
+<td align="right">3181.70</td>
+</tr>
+
+<tr>
+<td>std</td>
+<td align="right">10.94</td>
+<td align="right">11.37</td>
+<td align="right">11.32</td>
+</tr>
+
+<tr>
+<td>min</td>
+<td align="right">3158.50</td>
+<td align="right">3156.50</td>
+<td align="right">3156.50</td>
+</tr>
+
+<tr>
+<td>25%</td>
+<td align="right">3177.00</td>
+<td align="right">3169.00</td>
+<td align="right">3173.50</td>
+</tr>
+
+<tr>
+<td>50%</td>
+<td align="right">3183.00</td>
+<td align="right">3176.50</td>
+<td align="right">3180.50</td>
+</tr>
+
+<tr>
+<td>75%</td>
+<td align="right">3195.00</td>
+<td align="right">3184.00</td>
+<td align="right">3193.50</td>
+</tr>
+
+<tr>
+<td>max</td>
+<td align="right">3206.00</td>
+<td align="right">3205.00</td>
+<td align="right">3206.00</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="limit-order-book-statistics">Limit Order Book Statistics</h2>
+
+<table>
+<thead>
+<tr>
+<th>index</th>
 <th align="right">Bid Price0</th>
 <th align="right">Ask Price0</th>
 <th align="right">Bid Volume0</th>
@@ -342,77 +413,6 @@ Moreover, we depict the best limits with dots representing the trades. These dot
 </tbody>
 </table>
 
-<h2 id="limit-order-book-statistics">Limit Order Book Statistics</h2>
-
-<table>
-<thead>
-<tr>
-<th>index</th>
-<th align="right">Price Trade Buy MO</th>
-<th align="right">Price Trade Sell MO</th>
-<th align="right">Price</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>count</td>
-<td align="right">57054.00</td>
-<td align="right">25098.00</td>
-<td align="right">82152.00</td>
-</tr>
-
-<tr>
-<td>mean</td>
-<td align="right">3183.25</td>
-<td align="right">3178.17</td>
-<td align="right">3181.70</td>
-</tr>
-
-<tr>
-<td>std</td>
-<td align="right">10.94</td>
-<td align="right">11.37</td>
-<td align="right">11.32</td>
-</tr>
-
-<tr>
-<td>min</td>
-<td align="right">3158.50</td>
-<td align="right">3156.50</td>
-<td align="right">3156.50</td>
-</tr>
-
-<tr>
-<td>25%</td>
-<td align="right">3177.00</td>
-<td align="right">3169.00</td>
-<td align="right">3173.50</td>
-</tr>
-
-<tr>
-<td>50%</td>
-<td align="right">3183.00</td>
-<td align="right">3176.50</td>
-<td align="right">3180.50</td>
-</tr>
-
-<tr>
-<td>75%</td>
-<td align="right">3195.00</td>
-<td align="right">3184.00</td>
-<td align="right">3193.50</td>
-</tr>
-
-<tr>
-<td>max</td>
-<td align="right">3206.00</td>
-<td align="right">3205.00</td>
-<td align="right">3206.00</td>
-</tr>
-</tbody>
-</table>
-
 <h2 id="spread-and-mid-price">Spread and mid-price</h2>
 
 <p>To have a flavor of intraday price variations, in Figure 1 we depict the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.</p>
@@ -483,7 +483,7 @@ This difference is more pronounced for buy orders than for sell orders in regime
 </figure>
 
 
-<h1 id="number-of-market-orders">Number of Market Orders</h1>
+<h2 id="number-of-market-orders">Number of Market Orders</h2>
 
 <table>
 <thead>
@@ -550,7 +550,7 @@ This difference is more pronounced for buy orders than for sell orders in regime
 <p>However, the discrepancies between buy and sell market orders are mitigated when we consider the
 percentage of market orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.</p>
 
-<h1 id="percentage-of-makret-orders">Percentage of Makret Orders</h1>
+<h2 id="percentage-of-makret-orders">Percentage of Makret Orders</h2>
 
 <table>
 <thead>
@@ -617,7 +617,7 @@ percentage of market orders among the different regimes. Figure 5 must be interp
 <p>Finally, the next Table (see <em>Average Imbalance</em>) shows the average Imbalance just prior the trades arriving at each imbalance regime.
 The corresponding bar plot is given in Figure 6.</p>
 
-<h1 id="average-imbalance">Average Imbalance</h1>
+<h2 id="average-imbalance">Average Imbalance</h2>
 
 <table>
 <thead>
