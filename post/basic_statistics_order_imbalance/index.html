@@ -243,20 +243,19 @@
 <p>In this post, we use tick-data of U.S. Dollar Futures contracts traded at <a href="http://www.bmfbovespa.com/en_us/" target="_blank">BM&amp;F Bovespa</a>. The specifications of this contract are given <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">here</a>.
 We use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" target="_blank">ftp://ftp.bmf.com.br</a>.</p>
 
-<p>More specifcally, we analyze the futures contract of U.S. Dollar at <strong>March 3rd 2017</strong>, with maturity in April, 2017.The code of this asset is DOLJ17.</p>
+<p>More specifcally, we analyze the futures contract of U.S. Dollar at <strong>March 3rd 2017</strong>, with maturity in April, 2017. The code of this asset is DOLJ17.</p>
 
-<h1 id="goal-of-this-post">Goal of this post:</h1>
+<h1 id="the-goal-of-this-post">The goal of this post:</h1>
 
 <p>First, we present basic statistics and a visual representation of the
 (<a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">U.S. Dollar Futures contract</a>, DOLJ17, for a given day. The basic statistics
 cover the trades and the limit order book events. We sellect all aggressive market orders that were
 executed against orders sited at the limit order book. This excludes the possible auctions happening mainly at the begining and at the end of the trading day.
-We also depict the best limits with dots representing the trades proportionally to the trade
-volume. To compare trades with the limit order book, we draw the best limits just prior any given
-trade.</p>
+We also depict the best limits with dots representing the trades. These dots are proportional to the
+trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.</p>
 
 <p>Next, we do a first-step analyze on the so-called Order Book Imbalance. Finally, we analyze the
-number of buy and sell market orders that arrive at five different Regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high(low) order book imbalance.</p>
+number of buy and sell market orders that arrive at five different Regimes of imbalance. As it was expected from the intuition and from other markets, buy (sell) market orders tend to arrive more at regimes of high (low) order book imbalance.</p>
 
 <h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
@@ -457,9 +456,10 @@ Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
 where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.</p>
 
-<p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent buy and sell market orders, respectivelly.</p>
+<p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly.</p>
 
-<p>Divide imbalance into regimes and illustrate when trades occur.</p>
+<p>Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
+These regimes are divided in regions such that $Imb_t\in {[-1, -0.5), [-0.5, -0.2), [-0.2, 0.2), [0.2,0.5), [0.5,1]}$. Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next table (Number of Market Orders).</p>
 
 
 <figure >
