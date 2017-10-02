@@ -312,9 +312,6 @@ This difference is more pronounced for buy orders than for sell orders in regime
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;However, the discrepancies between buy and sell market orders are mitigated when we consider the
-percentage of market orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.&lt;/p&gt;
-
 
 &lt;figure &gt;
     
@@ -378,6 +375,9 @@ percentage of market orders among the different regimes. Figure 5 must be interp
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;However, the discrepancies between buy and sell market orders are mitigated when we consider the
+percentage of market orders among the different regimes. Figure 5 must be interpreted as follows. The red bars represent the proportion of sell market orders that arrive at each regime. This explains the size of the first bar: among the sell market orders, in regime 1 we find more of its occurency. Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.&lt;/p&gt;
 
 
 &lt;figure &gt;
