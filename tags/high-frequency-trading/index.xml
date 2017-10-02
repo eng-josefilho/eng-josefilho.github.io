@@ -231,7 +231,7 @@ Moreover, we depict the best limits with dots representing the trades. These dot
 
 &lt;h1 id=&#34;order-book-imbalance&#34;&gt;Order Book Imbalance&lt;/h1&gt;
 
-&lt;p&gt;We define the the imbalance as the difference between the bid and ask quantity quotes divided by its sum. That is,
+&lt;p&gt;We define the the imbalance as the difference between the best bid and best ask quantity quotes divided by its sum. That is,
 $$
 Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
