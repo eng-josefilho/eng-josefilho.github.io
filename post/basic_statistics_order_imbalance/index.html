@@ -251,17 +251,17 @@ We use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" ta
 <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">U.S. Dollar Futures contract</a>, DOLJ17, for a given day. The basic statistics
 cover the trades and the limit order book events.</p>
 
-<p>Next, we do a first-step analyze on the so-called Order Book Imbalance. We analyze the
+<p>We define the order imbalance and analyze the
 number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.</p>
 
 <h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
 <p>We compose our trading data selecting all aggressive market orders
 executed against orders sited at the limit order book.
-With this, we exclude the possible auctions happening mainly at the beginning and at the end of the trading day.
 Moreover, we depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.</p>
 
-<p>Next, we illustrate the basic statistics of limit and market orders.</p>
+<p>Next, we illustrate the basic statistics of limit and market orders.
+In table <em>Trading Statistics</em>, we present the the trades divided into buy and sell market orders. The label <strong>Price</strong> must be interpreted as the trading prices, being either buy or sell.</p>
 
 <h2 id="trading-statistics">Trading Statistics</h2>
 
