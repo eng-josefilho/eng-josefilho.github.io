@@ -256,7 +256,7 @@ This difference is more pronounced for buy orders than for sell orders in regime
     
     
     &lt;figcaption&gt;
-        &lt;h4&gt;Order imbalance for each quote at the best limits. The blue (red) dots represent Buy (Sell) market orders. The dots size are proportional the trade volumes.&lt;/h4&gt;
+        &lt;h4&gt;Order imbalance for each quote at the best limits. The blue (red) dots represent Buy (Sell) market orders. The dots size are proportional to the trade volumes.&lt;/h4&gt;
         
     &lt;/figcaption&gt;
     
