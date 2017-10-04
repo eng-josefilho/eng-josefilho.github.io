@@ -57,58 +57,58 @@ In table &lt;em&gt;Trading Statistics&lt;/em&gt;, we present the the trades divi
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;count&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;57054.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;25098.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;82152.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20613.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19592.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;40205.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;mean&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3183.25&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3178.17&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3181.70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.37&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3179.04&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.70&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;std&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;10.94&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;11.37&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;11.32&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.81&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.78&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.80&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;min&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3158.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3156.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3156.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3156.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3079.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3079.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;25%&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3177.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3169.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3173.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3170.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;50%&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3183.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3176.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3180.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3177.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3177.50&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;75%&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3195.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3184.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3193.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.62&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.50&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;max&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3300.00&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3205.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3300.00&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -129,66 +129,66 @@ In table &lt;em&gt;Trading Statistics&lt;/em&gt;, we present the the trades divi
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;count&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;271535.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;271535.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;271535.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;271535.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;220912.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;220912.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;220912.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;220912.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;mean&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3179.05&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3179.70&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;106.9&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;100.1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.19&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.80&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;84.37&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;89.74&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;std&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;10.88&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;10.92&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;150.1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;121.7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.59&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.61&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;104.13&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;103.82&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;min&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3157.50&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3158.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;5.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;5.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;25%&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3171.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3172.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;25.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;30.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3171.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;25.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;25.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;50%&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3178.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3179.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;55.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;65.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3177.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3178.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;55.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;60.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;75%&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3184.00&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3184.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;115.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;120.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3183.50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;105.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;110.00&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;max&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3206.00&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3206.50&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1290.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1130.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1290.00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1130.00&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -239,14 +239,14 @@ Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
 where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.&lt;/p&gt;
 
-&lt;p&gt;The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly.&lt;/p&gt;
+&lt;p&gt;The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly. Note that Figure 3, the time range is the same as in Figure 2.&lt;/p&gt;
 
 &lt;p&gt;Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
 These regimes are divided in regions such that $Imb_t$ belogs to one of the follwing sets,&lt;/p&gt;
 
 &lt;p&gt;$${{[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}}.$$&lt;/p&gt;
 
-&lt;p&gt;Note that in Figure 3 we plot only two minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (see &lt;em&gt;Number of Market Orders&lt;/em&gt;). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.
+&lt;p&gt;Note that in Figure 3 we have only three minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (see &lt;em&gt;Number of Market Orders&lt;/em&gt;). The corresponding bar plot is given in Figure 4. It is interesting to note that from regime 3 to 5 the buy market orders dominate the sell market orders.
 This difference is more pronounced for buy orders than for sell orders in regimes 1 and 2. This is in accordance the higher number of buy market orders (see table &lt;em&gt;Trading Statistics&lt;/em&gt;) for this particular day.&lt;/p&gt;
 
 
@@ -277,38 +277,38 @@ This difference is more pronounced for buy orders than for sell orders in regime
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Regime 1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;9299&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4694&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;13993&lt;/td&gt;
+&lt;td&gt;Regime1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3858&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4490&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8348&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6766&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6112&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;12878&lt;/td&gt;
+&lt;td&gt;Regime2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3806&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4286&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8092&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16380&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4744&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21124&lt;/td&gt;
+&lt;td&gt;Regime3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4432&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4456&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8888&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;14569&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;5114&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19683&lt;/td&gt;
+&lt;td&gt;Regime4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4411&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3216&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7627&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;7924&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4025&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;11949&lt;/td&gt;
+&lt;td&gt;Regime5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3840&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2983&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6823&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -344,38 +344,38 @@ percentage of market orders among the different regimes. Figure 5 must be interp
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Regime 1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.93&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19.01&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;17.57&lt;/td&gt;
+&lt;td&gt;Regime1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.96&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;23.11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.99&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;12.32&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;24.76&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.17&lt;/td&gt;
+&lt;td&gt;Regime2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.71&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.06&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.34&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;29.82&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19.22&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;26.53&lt;/td&gt;
+&lt;td&gt;Regime3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.78&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.93&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.34&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;26.52&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20.71&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;24.72&lt;/td&gt;
+&lt;td&gt;Regime4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.68&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.55&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19.17&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;14.42&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.30&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;15.01&lt;/td&gt;
+&lt;td&gt;Regime5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.87&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15.35&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;17.15&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -397,7 +397,7 @@ percentage of market orders among the different regimes. Figure 5 must be interp
 &lt;p&gt;Finally, the next Table (see &lt;em&gt;Average Imbalance&lt;/em&gt;) shows the average Imbalance just prior the trades arriving at each imbalance regime.
 The corresponding bar plot is given in Figure 6.&lt;/p&gt;
 
-&lt;h2 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h2&gt;
+&lt;h1 id=&#34;average-imbalance&#34;&gt;Average Imbalance&lt;/h1&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -411,38 +411,38 @@ The corresponding bar plot is given in Figure 6.&lt;/p&gt;
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Regime 1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.757906&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.76430&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.76110&lt;/td&gt;
+&lt;td&gt;Regime1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.77936&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.792780&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.786069&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.378809&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.40450&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;-0.39165&lt;/td&gt;
+&lt;td&gt;Regime2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.39146&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.390470&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.390965&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.007709&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.01481&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.01126&lt;/td&gt;
+&lt;td&gt;Regime3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.01264&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.002913&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.007777&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.393133&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.40761&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.40037&lt;/td&gt;
+&lt;td&gt;Regime4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.40137&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.402312&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.401842&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Regime 5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.813782&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.82143&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.81761&lt;/td&gt;
+&lt;td&gt;Regime5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.81231&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.792619&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.802467&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
