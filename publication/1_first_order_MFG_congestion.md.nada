@@ -1,0 +1,42 @@
++++
+abstract="Mean-field games (MFGs) are models for large 
+populations of competing rational agents that seek to optimize a suitable functional. In the case of congestion, this functional takes
+into account the difficulty of moving in high-density areas.
+Here, we study stationary MFGs with congestion with quadratic or power-like Hamiltonians. First, using explicit examples, we illustrate two main difficulties: the lack of
+classical solutions and the existence of areas with vanishing density. Our main contribution
+is a new variational formulation for MFGs with congestion. This formulation was not previously known, and, thanks to it, we prove the existence and uniqueness of
+solutions. Finally, we consider applications to numerical methods." abstract_short=""
+
+authors = ["David Evangelista", "Rita Ferreira", "Diogo Gomes", "Levon Nurbekyan", "Vardan Voskanyan"]
+
+date = "2017-10-04"
+image_preview = ""
+math = true
+publication_types = ["2"]
+publication = "Submitted"
+publication_short = "Submitted"
+selected = true
+title = "First-order, stationary mean-field games with congestion"
+
+#url_code = "github.io/davidsevangelista"
+#url_dataset = "#"
+url_journal = "https://link.springer.com/article/10.1007/s10884-017-9615-1?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
+#url_project = "project/deep-learning/"
+#url_slides = "#"
+#url_video = "#"
+
+#[[url_custom]]
+#name = "Journal"
+#url = ""
+
+
+#name = "arXiv"
+#url = "https://arxiv.org/pdf/1611.08232.pdf" 
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+#image = "headers/blackboard.jpg"
+# caption = "My caption :smile:"
+
++++
+
