@@ -34,7 +34,7 @@ cover the trades and the limit order book events.&lt;/p&gt;
 &lt;h1 id=&#34;basic-statistics-and-visual-representation&#34;&gt;Basic Statistics and Visual Representation&lt;/h1&gt;
 
 &lt;p&gt;I compose the trading data selecting all aggressive market orders executed against orders sited at the limit order book.
-Moreover, we depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.&lt;/p&gt;
+Moreover, I depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.&lt;/p&gt;
 
 &lt;p&gt;Next, I illustrate the basic statistics of limit and market orders.
 In table &lt;em&gt;Trading Statistics&lt;/em&gt;, I present the the trades divided into buy and sell market orders. The label &lt;strong&gt;Price&lt;/strong&gt; must be interpreted as the trading prices, being either buy or sell.&lt;/p&gt;
