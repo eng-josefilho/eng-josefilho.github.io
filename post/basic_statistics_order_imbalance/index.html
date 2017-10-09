@@ -240,28 +240,26 @@
 
 <h1 id="the-data">The data</h1>
 
-<p>In this post, we use tick-data of U.S. Dollar Futures contracts traded at <a href="http://www.bmfbovespa.com/en_us/" target="_blank">BM&amp;F Bovespa</a>. The specifications of this financial asset are given <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">here</a>.
-We use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" target="_blank">ftp://ftp.bmf.com.br</a>. Thanks to <a href="https://www.linkedin.com/in/rafael-lacerda-903a1222/" target="_blank">Rafael Lacerda</a> for providing the data and for the valuable discussions.</p>
+<p>In this post, I use tick-data of U.S. Dollar Futures contracts traded at <a href="http://www.bmfbovespa.com/en_us/" target="_blank">BM&amp;F Bovespa</a>. The specifications of this financial asset are given <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">here</a>.
+I use the data from raw messages available at <a href="ftp://ftp.bmf.com.br" target="_blank">ftp://ftp.bmf.com.br</a>.</p>
 
 <p>More specifcally, we analyze the U.S. Dollar Futures contracts at <strong>March 3rd 2017</strong>, with maturity in April, 2017. The code of this asset is DOLJ17.</p>
 
 <h1 id="the-goal-of-this-post">The goal of this post:</h1>
 
-<p>First, we present basic statistics and a visual representation of the
+<p>First, I present basic statistics and a visual representation of the
 <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">U.S. Dollar Futures contract</a>, DOLJ17, for a given day. The basic statistics
 cover the trades and the limit order book events.</p>
 
-<p>We define the order imbalance and analyze the
-number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.</p>
+<p>I recall the definition of the Order Book Imbalance and analyze the number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.</p>
 
 <h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
-<p>We compose our trading data selecting all aggressive market orders
-executed against orders sited at the limit order book.
+<p>I compose the trading data selecting all aggressive market orders executed against orders sited at the limit order book.
 Moreover, we depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.</p>
 
-<p>Next, we illustrate the basic statistics of limit and market orders.
-In table <em>Trading Statistics</em>, we present the the trades divided into buy and sell market orders. The label <strong>Price</strong> must be interpreted as the trading prices, being either buy or sell.</p>
+<p>Next, I illustrate the basic statistics of limit and market orders.
+In table <em>Trading Statistics</em>, I present the the trades divided into buy and sell market orders. The label <strong>Price</strong> must be interpreted as the trading prices, being either buy or sell.</p>
 
 <h2 id="trading-statistics">Trading Statistics</h2>
 
@@ -416,9 +414,9 @@ In table <em>Trading Statistics</em>, we present the the trades divided into buy
 
 <h2 id="spread-and-mid-price">Spread and mid-price</h2>
 
-<p>To have a flavor of intraday price variations, in Figure 1 we depict the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.</p>
+<p>To have a flavor of intraday price variations, in Figure 1 I depict the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.</p>
 
-<p>Moreover, in Figure 1 we also illustrate the spread (on the right y axis). The spread is the difference between the best bid and ask quotes. In this example, we show the spread in tick-size. For DOLJ17, the tick-size is R$ 0.5.</p>
+<p>Moreover, in Figure 1 I also illustrate the spread (on the right y axis). The spread is the difference between the best bid and ask quotes. In this example, we show the spread in tick-size. For DOLJ17, the tick-size is R$ 0.5.</p>
 
 
 <figure >
@@ -436,7 +434,7 @@ In table <em>Trading Statistics</em>, we present the the trades divided into buy
 
 <h2 id="quotes-trades-and-volume-proportional-to-trade">Quotes, trades, and volume proportional to trade</h2>
 
-<p>Here, we plot six minutes of activity of the first limits together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.</p>
+<p>Here, I plot six minutes of activity of the first limits together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.</p>
 
 
 <figure >
@@ -454,7 +452,7 @@ In table <em>Trading Statistics</em>, we present the the trades divided into buy
 
 <h1 id="order-book-imbalance">Order Book Imbalance</h1>
 
-<p>We define the the imbalance as the difference between the best bid and best ask quantity quotes divided by its sum. That is,
+<p>The Order Book Imbalance is the difference between the best bid and best ask quantity quotes divided by its sum. That is,
 $$
 Imb_t = \frac{V^{b}_t-V^{a}_t}{V^b_t+V^{a}_t},
 $$
@@ -680,6 +678,9 @@ The corresponding bar plot is given in Figure 6.</p>
     
 </figure>
 
+
+<p>Acknowledgement:
+I would like to thank <a href="https://www.linkedin.com/in/rafael-lacerda-903a1222/" target="_blank">Rafael Lacerda</a> for providing the data and for the valuable discussions.</p>
 
     </div>
   </div>
