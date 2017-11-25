@@ -1,0 +1,30 @@
++++
+
+abstract = "Multi asset." abstract_short = ""
+
+authors = ["David Evangelista", "Olivier Gueant", "Douglas Vieira"]
+date = "2017-11-20T00:00:00"
+image_preview = ""
+math = true
+publication_types = ["1"]
+publication = "TBA"
+publication_short = ""
+selected = false
+title = "New Closed-Form Solution in Multi Asset Market Making"
+#url_code = "#"
+#url_dataset = "#"
+#url_pdf = "https://arxiv.org/pdf/1703.07594.pdf"
+#url_project = ""
+#url_slides = "#"
+
+[[url_custom]]
+#name = "arXiv"
+#url = "" 
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+#image = "headers/blackboard.jpg"
+# caption = "My caption :smile:"
+
++++
+
