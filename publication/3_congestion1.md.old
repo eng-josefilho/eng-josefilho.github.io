@@ -1,0 +1,39 @@
++++
+abstract = "Mean-field games (MFGs) are models of large populations of rational agents who seek to optimize an objective function that takes into account their location and the distribution of the remaining agents. Here, we consider stationary MFGs with congestion and prove the existence of stationary solutions. Because moving in congested areas is difficult, agents prefer to move in non-congested areas. As a consequence, the model becomes singular near the zero density. The existence of stationary solutions was previously obtained for MFGs with quadratic Hamiltonians thanks to a very particular identity. Here, we develop robust estimates that give the existence of a solution for general subquadratic Hamiltonians." abstract_short=""
+
+authors = ["David Evangelista", "Diogo Gomes"]
+date = "2016-11-24"
+image_preview = ""
+math = true
+publication_types = ["2"]
+publication = "Journal of Dynamics and Differential Equations"
+publication_short = "In *Journal of Dynamics and Differential Equations*"
+selected = true
+title = "On the existence of solutions for mean-field games with congestion"
+
+
+
+#url_code = "github.io/davidsevangelista"
+#url_dataset = "#"
+#url_pdf = "https://arxiv.org/pdf/1611.08232.pdf" 
+#url_journal = "https://link.springer.com/article/10.1007/s10884-017-9615-1?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
+#url_project = "project/deep-learning/"
+#url_slides = "#"
+#url_video = "#"
+
+[[url_custom]]
+name = "Journal"
+url = "https://link.springer.com/article/10.1007/s10884-017-9615-1?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst"
+
+
+[[url_custom]]
+name = "arXiv"
+url = "https://arxiv.org/pdf/1611.08232.pdf" 
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+#image = "headers/blackboard.jpg"
+# caption = "My caption :smile:"
+
++++
+

@@ -1,0 +1,29 @@
++++
+abstract = "Here, we consider a regularized mean-field game model that features a low-order regularization. We prove the existence of solutions with positive density. To do so, we combine a priori estimates with the continuation method. In contrast with high-order regularizations, the low-order regularizations are easier to implement numerically. Moreover, our methods give a theoretical foundation for this approach." abstract_short = ""
+authors = ["Nojood Almayouf", "Elena Bachini", "Andreia Chapouto", "David Evangelista", "Rita Ferreira", "Diogo Gomes", "Daniela Jordão", "Avetik Karagulyan", "Juan Monasterio", "Levon Nurbekyan", "Giorgia Pagliar", "Marco Piccirilli", "Sagar Pratapsi", "Mariana Prazeres", "João Reis", "André Rodrigues", "Orlando Romero", "Maria Sargsyan", "Tommaso Seneci", "Chuliang Song", "Kengo Terai", "Ryota Tomisaki", "Hector Velasco-Perez", "Vardan Voskanyan", "Xianjin Yang"]
+date = "2015-12-14"
+image_preview = ""
+math = true
+publication_types = ["2"]
+publication = "Involve - A Journal of Mathematics"
+publication_short = "In *Involve - A Journal of Mathematics*"
+selected = false
+title = "Existence of positive solutions for an approximation of stationary mean-field games"
+#url_code = "#"
+#url_dataset = "#"
+url_pdf = "https://arxiv.org/pdf/1511.06999.pdf"
+#url_project = ""
+#url_slides = "#"
+#url_video = "#"
+
+#[[url_custom]]
+#name = "Custom Link"
+#url = "http://www.example.org"
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+#image = "headers/blackboard.jpg"
+# caption = "My caption :smile:"
+
++++
+
