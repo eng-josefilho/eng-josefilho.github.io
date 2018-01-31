@@ -10,6 +10,15 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>First order, stationary mean-field games with congestion</title>
+      <link>https://davidsevangelista.github.io/publication/1_first_order_MFG_congestion/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidsevangelista.github.io/publication/1_first_order_MFG_congestion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Basic Statistics and Order Book Imbalance: The Brazilian BMF&amp;Bovespa market</title>
       <link>https://davidsevangelista.github.io/post/basic_statistics_order_imbalance/</link>
       <pubDate>Mon, 02 Oct 2017 08:00:00 +0000</pubDate>
@@ -496,15 +505,6 @@ I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/rafael-lacerda
       <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://davidsevangelista.github.io/publication/4_summer_camp_paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First order, stationary mean-field games with congestion</title>
-      <link>https://davidsevangelista.github.io/publication/1_first_order_MFG_congestion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidsevangelista.github.io/publication/1_first_order_MFG_congestion/</guid>
       <description></description>
     </item>
     
