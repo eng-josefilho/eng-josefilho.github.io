@@ -44,18 +44,18 @@ I use the data from raw messages available at &lt;a href=&#34;ftp://ftp.bmf.com.
 
 &lt;h1 id=&#34;the-goal-of-this-post&#34;&gt;The goal of this post:&lt;/h1&gt;
 
-&lt;p&gt;First, I present basic statistics and a visual representation of the
+&lt;p&gt;First, we present basic statistics and a visual representation of the
 &lt;a href=&#34;http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm&#34; target=&#34;_blank&#34;&gt;U.S. Dollar Futures contract&lt;/a&gt;, DOLJ17, for a given day. The basic statistics
 cover the trades and the limit order book events.&lt;/p&gt;
 
-&lt;p&gt;I recall the definition of the Order Book Imbalance and analyze the number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.&lt;/p&gt;
+&lt;p&gt;We recall the definition of the Order Book Imbalance and analyze the number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.&lt;/p&gt;
 
 &lt;h1 id=&#34;basic-statistics-and-visual-representation&#34;&gt;Basic Statistics and Visual Representation&lt;/h1&gt;
 
-&lt;p&gt;I compose the trading data selecting all aggressive market orders executed against orders sited at the limit order book.
-Moreover, I depict the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.&lt;/p&gt;
+&lt;p&gt;We compose the trading data selecting all aggressive market orders executed against orders sited at the limit order book.
+Moreover, we can see the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.&lt;/p&gt;
 
-&lt;p&gt;Next, I illustrate the basic statistics of limit and market orders.
+&lt;p&gt;Next, we see the basic statistics of limit and market orders.
 In table &lt;em&gt;Trading Statistics&lt;/em&gt;, I present the the trades divided into buy and sell market orders. The label &lt;strong&gt;Price&lt;/strong&gt; must be interpreted as the trading prices, being either buy or sell.&lt;/p&gt;
 
 &lt;h2 id=&#34;trading-statistics&#34;&gt;Trading Statistics&lt;/h2&gt;
@@ -211,9 +211,9 @@ In table &lt;em&gt;Trading Statistics&lt;/em&gt;, I present the the trades divid
 
 &lt;h2 id=&#34;spread-and-mid-price&#34;&gt;Spread and mid-price&lt;/h2&gt;
 
-&lt;p&gt;To have a flavor of intraday price variations, in Figure 1 I depict the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.&lt;/p&gt;
+&lt;p&gt;To have a flavor of intraday price variations, in Figure 1 we the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.&lt;/p&gt;
 
-&lt;p&gt;Moreover, in Figure 1 I also illustrate the spread (on the right y axis). The spread is the difference between the best bid and ask quotes. In this example, we show the spread in tick-size. For DOLJ17, the tick-size is R$ 0.5.&lt;/p&gt;
+&lt;p&gt;Moreover, in Figure 1 we also illustrate the spread (on the right y axis). The spread is the difference between the best bid and ask quotes. In this example, we show the spread in tick-size. For DOLJ17, the tick-size is R$ 0.5.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -231,7 +231,7 @@ In table &lt;em&gt;Trading Statistics&lt;/em&gt;, I present the the trades divid
 
 &lt;h2 id=&#34;quotes-trades-and-volume-proportional-to-trade&#34;&gt;Quotes, trades, and volume proportional to trade&lt;/h2&gt;
 
-&lt;p&gt;Here, I plot six minutes of activity of the first limits together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.&lt;/p&gt;
+&lt;p&gt;Here, we plot six minutes of activity of the first limits together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.&lt;/p&gt;
 
 
 &lt;figure &gt;
