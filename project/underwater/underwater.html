@@ -31,14 +31,10 @@
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-
     <article class="article" itemscope itemtype="http://schema.org/Article">
-
-
 
         <div class="article-container">
             <h1 itemprop="name">Underwater communication systems</h1>
-
 
             <div class="article-metadata">
 
@@ -47,11 +43,6 @@
                         2017-10-02
                     </time>
                 </span>
-
-
-
-
-
 
                 <span class="article-tags">
                     <i class="fa fa-tags"></i>
@@ -63,14 +54,11 @@
                 </span>
 
 
-
-
-
                 <div class="share-box" aria-hidden="true">
                     <ul class="share">
                         <li>
                             <a class="facebook"
-                               href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdavidsevangelista.github.io%2fpost%2fbasic_statistics_order_imbalance%2f"
+                               href="https://www.facebook.com/sharer.php?u="
                                target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
@@ -104,16 +92,12 @@
                         </li>
                     </ul>
                 </div>
-
-
-
-
-            </div>
+             </div>
 
             <div class="article-style" itemprop="articleBody">
 
 
-                <h1 id="the-data">The data</h1>
+                <h1 id="the-data">The goal of this project</h1>
 
                 <p>
                     In this post, I use tick-data of U.S. Dollar Futures contracts traded at <a href="http://www.bmfbovespa.com/en_us/" target="_blank">BM&amp;F Bovespa</a>. The specifications of this financial asset are given <a href="http://www.bmfbovespa.com.br/en_us/products/listed-equities-and-derivatives/exchange-rates/u-s-dollar-futures.htm" target="_blank">here</a>.
@@ -130,208 +114,17 @@
                     cover the trades and the limit order book events.
                 </p>
 
-                <p>We recall the definition of the Order Book Imbalance and analyze the number (and percentage) of buy and sell market orders that arrive at five different regimes of imbalance. As it was expected from the intuition and other markets, buy (sell) market orders tend to arrive more at regimes of higher (lower) order book imbalance.</p>
+                <p>We recall the definition of the Order Book Imbalance and analyze the number (and percentage) of buy </p>
 
                 <h1 id="basic-statistics-and-visual-representation">Basic Statistics and Visual Representation</h1>
 
                 <p>
                     We compose the trading data selecting all aggressive market orders executed against orders sited at the limit order book.
-                    Moreover, we can see the best limits with dots representing the trades. These dots are proportional to the trade volume. To compare trades with the limit order book, we draw the best limits just prior any given trade.
                 </p>
-
-                <p>
-                    Next, we see the basic statistics of limit and market orders.
-                    In table <em>Trading Statistics</em>, I present the the trades divided into buy and sell market orders. The label <strong>Price</strong> must be interpreted as the trading prices, being either buy or sell.
-                </p>
-
-                <h2 id="trading-statistics">Trading Statistics</h2>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>index</th>
-                            <th align="right">Price Trade Buy MO</th>
-                            <th align="right">Price Trade Sell MO</th>
-                            <th align="right">Price</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>count</td>
-                            <td align="right">20613.00</td>
-                            <td align="right">19592.00</td>
-                            <td align="right">40205.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>mean</td>
-                            <td align="right">3178.37</td>
-                            <td align="right">3179.04</td>
-                            <td align="right">3178.70</td>
-                        </tr>
-
-                        <tr>
-                            <td>std</td>
-                            <td align="right">10.81</td>
-                            <td align="right">10.78</td>
-                            <td align="right">10.80</td>
-                        </tr>
-
-                        <tr>
-                            <td>min</td>
-                            <td align="right">3156.00</td>
-                            <td align="right">3079.00</td>
-                            <td align="right">3079.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>25%</td>
-                            <td align="right">3170.50</td>
-                            <td align="right">3171.50</td>
-                            <td align="right">3171.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>50%</td>
-                            <td align="right">3177.50</td>
-                            <td align="right">3178.00</td>
-                            <td align="right">3177.50</td>
-                        </tr>
-
-                        <tr>
-                            <td>75%</td>
-                            <td align="right">3183.00</td>
-                            <td align="right">3183.62</td>
-                            <td align="right">3183.50</td>
-                        </tr>
-
-                        <tr>
-                            <td>max</td>
-                            <td align="right">3300.00</td>
-                            <td align="right">3206.00</td>
-                            <td align="right">3300.00</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h2 id="limit-order-book-statistics">Limit Order Book Statistics</h2>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>index</th>
-                            <th align="right">Bid Price0</th>
-                            <th align="right">Ask Price0</th>
-                            <th align="right">Bid Volume0</th>
-                            <th align="right">Ask Volume0</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>count</td>
-                            <td align="right">220912.00</td>
-                            <td align="right">220912.00</td>
-                            <td align="right">220912.00</td>
-                            <td align="right">220912.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>mean</td>
-                            <td align="right">3178.19</td>
-                            <td align="right">3178.80</td>
-                            <td align="right">84.37</td>
-                            <td align="right">89.74</td>
-                        </tr>
-
-                        <tr>
-                            <td>std</td>
-                            <td align="right">10.59</td>
-                            <td align="right">10.61</td>
-                            <td align="right">104.13</td>
-                            <td align="right">103.82</td>
-                        </tr>
-
-                        <tr>
-                            <td>min</td>
-                            <td align="right">3157.50</td>
-                            <td align="right">3158.00</td>
-                            <td align="right">5.00</td>
-                            <td align="right">5.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>25%</td>
-                            <td align="right">3171.00</td>
-                            <td align="right">3171.50</td>
-                            <td align="right">25.00</td>
-                            <td align="right">25.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>50%</td>
-                            <td align="right">3177.00</td>
-                            <td align="right">3178.00</td>
-                            <td align="right">55.00</td>
-                            <td align="right">60.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>75%</td>
-                            <td align="right">3183.00</td>
-                            <td align="right">3183.50</td>
-                            <td align="right">105.00</td>
-                            <td align="right">110.00</td>
-                        </tr>
-
-                        <tr>
-                            <td>max</td>
-                            <td align="right">3206.00</td>
-                            <td align="right">3206.50</td>
-                            <td align="right">1290.00</td>
-                            <td align="right">1130.00</td>
-                        </tr>
-                    </tbody>
-                </table>
 
                 <h2 id="spread-and-mid-price">Spread and mid-price</h2>
 
                 <p>To have a flavor of intraday price variations, in Figure 1 we the mid-price. The mid-price is the average between the best bid and best ask quotes of a given financial asset.</p>
-
-                <p>Moreover, in Figure 1 we also illustrate the spread (on the right y axis). The spread is the difference between the best bid and ask quotes. In this example, we show the spread in tick-size. For DOLJ17, the tick-size is R$ 0.5.</p>
-
-
-                <figure>
-
-                    <img src="/img/plot_sread_midprice.png" />
-
-
-                    <figcaption>
-                        <h4>Mid-price</h4>
-
-                    </figcaption>
-
-                </figure>
-
-
-                <h2 id="quotes-trades-and-volume-proportional-to-trade">Quotes, trades, and volume proportional to trade</h2>
-
-                <p>Here, we plot six minutes of activity of the first limits together with the trades that happend in this period. The light colored red (blue) dots represent the available quantity at best ask (bid). The dark colors represent the transactions corresponding to each side. The size of the dots are proportional to the size of the transactions.</p>
-
-
-                <figure>
-
-                    <img src="/img/plot_lob_trades_volume_prop.png" />
-
-
-                    <figcaption>
-                        <h4>Best bid and ask quotes and trades. The Blue (red) dots represent buy (sell) market orders. The dots size are proportional to the trade volumes.</h4>
-
-                    </figcaption>
-
-                </figure>
-
 
                 <h1 id="order-book-imbalance">Order Book Imbalance</h1>
 
@@ -343,17 +136,10 @@
                     where $V_t^{b}$ and $V_t^{a}$ denotes the volume posted at the best bid and at the best ask, respectively.
                 </p>
 
-                <p>The Order Book Imbalance measures whether the limit order book is buy or sell heavy. In fact, it is a good predictor of price direction. To illustrate this, in Figure 3 we plot the order imbalance for each quote at the best limits. In this figure, the blue and red dots represent the level of imbalance when buy and sell market orders arrive, respectivelly. Note that Figure 3, the time range is the same as in Figure 2.</p>
-
                 <p>
                     Moreover, the inner space between the horizontal lines in Figure 3 represent the imbalance regimes.
                     These regimes are divided in regions such that $Imb_t$ belogs to one of the follwing sets,
                 </p>
-
-                <p>$${{[-1, -0.6), [-0.6, -0.2), [-0.2, 0.2), [0.2,0.6), [0.6,1]}}.$$</p>
-
-                <p>Note that in Figure 3 we have only three minutes of market activity. If we consider the whole trading day, and count the number of buy and sell market orders conditional on imbalance regimes, we obtain the next Table (see <em>Number of Market Orders</em>). The corresponding bar plot is given in Figure 4. It is interesting to note that in the regimes 4 and 5, the buy market orders dominate the sell market orders. Correspondingly, in the regimes 1 and 2, the sell market orders dominate the buy market orders.</p>
-
 
                 <figure>
 
@@ -366,215 +152,9 @@
                     </figcaption>
 
                 </figure>
-
-
-                <h2 id="number-of-market-orders">Number of Market Orders</h2>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Regime</th>
-                            <th align="right">Imbalance Buy MO</th>
-                            <th align="right">Imbalance Sell MO</th>
-                            <th align="right">Total Imbalance</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Regime1</td>
-                            <td align="right">3858</td>
-                            <td align="right">4490</td>
-                            <td align="right">8348</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime2</td>
-                            <td align="right">3806</td>
-                            <td align="right">4286</td>
-                            <td align="right">8092</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime3</td>
-                            <td align="right">4432</td>
-                            <td align="right">4456</td>
-                            <td align="right">8888</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime4</td>
-                            <td align="right">4411</td>
-                            <td align="right">3216</td>
-                            <td align="right">7627</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime5</td>
-                            <td align="right">3840</td>
-                            <td align="right">2983</td>
-                            <td align="right">6823</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                <figure>
-
-                    <img src="/img/plot_imbalance_regime_num_MO.png" />
-
-
-                    <figcaption>
-                        <h4>Number of trades conditional on order imbalance regime.</h4>
-
-                    </figcaption>
-
-                </figure>
-
-
                 <p>
                     However, the discrepancies between buy and sell market orders are mitigated when we consider the
-                    percentage of market orders among the different regimes. Figure 5 must be interpreted as follows. The blue (red) bars represent the proportion of orders, in each regime, of buy (sell) market orders. The sell market orders tend to arrive in regimes with lower imbalance. Hence, we can expect that the market is sell heavy when the imbalance is negative (especially when it is close to -1). Accordingly, the buy market orders tend to occur more in regimes with higher order book imbalance.
                 </p>
-
-                <h2 id="percentage-of-makret-orders">Percentage of Makret Orders</h2>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Regime</th>
-                            <th align="right">Imbalance Buy MO</th>
-                            <th align="right">Imbalance Sell MO</th>
-                            <th align="right">Total Imbalance</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Regime1</td>
-                            <td align="right">18.96</td>
-                            <td align="right">23.11</td>
-                            <td align="right">20.99</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime2</td>
-                            <td align="right">18.71</td>
-                            <td align="right">22.06</td>
-                            <td align="right">20.34</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime3</td>
-                            <td align="right">21.78</td>
-                            <td align="right">22.93</td>
-                            <td align="right">22.34</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime4</td>
-                            <td align="right">21.68</td>
-                            <td align="right">16.55</td>
-                            <td align="right">19.17</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime5</td>
-                            <td align="right">18.87</td>
-                            <td align="right">15.35</td>
-                            <td align="right">17.15</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                <figure>
-
-                    <img src="/img/plot_imbalance_regime_perc_MO.png" />
-
-
-                    <figcaption>
-                        <h4>Percentage of trades conditional on order imbalance regime.</h4>
-
-                    </figcaption>
-
-                </figure>
-
-
-                <p>
-                    Finally, the next Table (see <em>Average Imbalance</em>) shows the average Imbalance just prior the trades arriving at each imbalance regime.
-                    The corresponding bar plot is given in Figure 6.
-                </p>
-
-                <h1 id="average-imbalance">Average Imbalance</h1>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Regime</th>
-                            <th align="right">Imbalance Buy MO</th>
-                            <th align="right">Imbalance Sell MO</th>
-                            <th align="right">Total Imbalance</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Regime1</td>
-                            <td align="right">-0.77936</td>
-                            <td align="right">-0.792780</td>
-                            <td align="right">-0.786069</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime2</td>
-                            <td align="right">-0.39146</td>
-                            <td align="right">-0.390470</td>
-                            <td align="right">-0.390965</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime3</td>
-                            <td align="right">0.01264</td>
-                            <td align="right">0.002913</td>
-                            <td align="right">0.007777</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime4</td>
-                            <td align="right">0.40137</td>
-                            <td align="right">0.402312</td>
-                            <td align="right">0.401842</td>
-                        </tr>
-
-                        <tr>
-                            <td>Regime5</td>
-                            <td align="right">0.81231</td>
-                            <td align="right">0.792619</td>
-                            <td align="right">0.802467</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                <figure>
-
-                    <img src="/img/plot_imbalance_regime_mean_MO.png" />
-
-
-                    <figcaption>
-                        <h4>Average of order imbalance when trade occur conditional on order imbalance regime.</h4>
-
-                    </figcaption>
-
-                </figure>
-
-
-                <p>
-                    Acknowledgement:
-                    I would like to thank <a href="https://www.linkedin.com/in/rafael-lacerda-903a1222/" target="_blank">Rafael Lacerda</a> for providing the data and for the valuable discussions.
-                </p>
-
             </div>
         </div>
 
@@ -595,11 +175,6 @@
     <footer class="site-footer">
         <div class="container">
             <p class="powered-by">
-
-
-
-
-
                 <span class="pull-right" aria-hidden="true">
                     <a href="#" id="back_to_top">
                         <span class="button_icon">
@@ -644,20 +219,9 @@
         });
     </script>
 
-
-
-
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 
-
-
-
-
     <script>hljs.initHighlightingOnLoad();</script>
-
-
-
 
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
